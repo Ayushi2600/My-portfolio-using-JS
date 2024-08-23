@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- for navbar -->
+    <nav class="nav">
+      <div>
+        <a href="#">Ayushi Dhiman</a>
+      </div>
+      <div>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#edu">Education</a>
+        <a href="#skill">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <!-- It's a home section -->
+    <div class="container" id="home">
+      <div class="image-container">
+        <img src="./images/dev.jpg" alt="my-pic" />
+      </div>
+      <div class="text-container">
+        <h1>Ayushi Dhiman</h1>
+        <p>Frontend Developer</p>
+        <button id="button">Reach out</button>
+      </div>
+    </div>
+    <!-- It's a about section -->
+    <div class="container-2" id="about">
+      <div class="inside-container">
+        <div class="text">
+          <h1>About Me <i class="fa-regular fa-face-smile"></i></h1>
+          <p>
+            I am a passionate and dedicated front-end developer with a keen
+            interest in creating visually appealing and user-friendly websites.
+            My journey into the world of web development began with a
+            fascination for how websites function and look, which led me to
+            learn HTML, CSS, and JavaScript. I have hands-on experience working
+            with React.js, building dynamic web applications that provide a
+            seamless user experience.
+          </p>
+        </div>
+        <div class="image">
+          <img src="./images/my-pic-1.jpg" alt="Profile Picture" />
+        </div>
+      </div>
+    </div>
+
+    <!-- It's a education section -->
+    <div class="container-3" id="edu">
+      <div class="left-column">
+        <h1>Experience & Education</h1>
+        <hr />
+      </div>
+
+      <div class="right-column">
+        <div class="experience">
+          <div class="experience-date">2023-2024</div>
+          <div class="experience-role">Full Stack Web Development Training</div>
+          <div class="experience-company">Brillica Services</div>
+          <div class="experience-details">
+            <li>
+              Completed a comprehensive 6-month Full Stack Web Development
+              course.
+            </li>
+            <li>
+              Acquired proficiency in both frontend and backend technologies,
+              including HTML, CSS, JavaScript, React.js, Node.js, and
+              Express.js.
+            </li>
+            <li>Gained proficiency in database management with MongoDB.</li>
+          </div>
+        </div>
+        <div class="education">
+          <div class="education-date">2020-2024</div>
+          <div class="education-degree">
+            BACHELOR'S DEGREE IN Computer Science
+          </div>
+          <div class="education-institution">
+            Dr. A.P.J Abdul Kalam Technical University
+          </div>
+          <div class="education-details">
+            <li>
+              Completed a 4-year Bachelor's degree in Computer Science and got
+              I-div with distinction
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- It's a skill section -->
+    <div class="container-4" id="skill">
+      <div class="section">
+        <h1>
+          Skills & <br />
+          Proficiencies
+        </h1>
+        <hr />
+        <h2>Web Technologies <i class="fa-solid fa-hand-point-right"></i></h2>
+        <div class="skill">
+          <span class="skill-name">HTML</span>
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span class="skill-name">CSS</span>
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">JavaScript</span>
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">React.js</span>
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- It's a project section -->
+    <h1 class="project-heading">My Projects</h1>
+    <div class="container-5" id="project">
+      <div class="card">
+        <img src="./images/cal.PNG" alt="calculator" />
+        <h2>Calculator</h2>
+        <p>Making this calculator using HTML, CSS and JavaScript.</p>
+      </div>
+
+      <div class="card">
+        <img src="./images/Capture.PNG" alt="Animated Landing Page" />
+        <h2>Animated Landing Page</h2>
+        <p>Making this animated landing page using HTML and CSS.</p>
+      </div>
+
+      <div class="card">
+        <img src="./images/image-gallery.PNG" alt="image-gallery" />
+        <h2>Image Gallery</h2>
+        <p>Making this image gallery using HTML, CSS and JavaScript.</p>
+      </div>
+    </div>
+
+    <!-- It's a contact section -->
+    <div class="container-6" id="contact">
+      <div class="container-content">
+        <h1>Reach out</h1>
+        <div class="line"></div>
+        <div class="info">
+          <p>Ayushi Dhiman</p>
+          <p>ayushidhiman666@gmail.com</p>
+        </div>
+        <div class="connect-with-me">
+          <h2>CONNECT WITH ME</h2>
+        </div>
+        <div class="social-media">
+          <a href="https://github.com/Ayushi2600" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ayushidhiman2600/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <button class="btn">Back to Top</button>
+      </div>
+    </div>
+    <script>
+      // for reach out button when click on this button it jump to the about section.
+      let reachOutBtn = document.getElementById("button");
+      reachOutBtn.addEventListener("click", () => {
+        document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+      });
+
+      // for back to top button when click on this button it jump to the top section.
+      let btn = document.querySelector(".btn");
+      btn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>
